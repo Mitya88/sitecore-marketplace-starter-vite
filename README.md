@@ -23,7 +23,7 @@ A starter template for building standalone Sitecore Marketplace apps using Vite,
 - @chakra-ui/cli (Chakra UI CLI)
 - @mdi/js (Material Design Icons)
 
-For setup instructions, see the [Setup Guide](docs/1_setup).
+For setup instructions, see the [Setup Guide](docs/1_setup.md).
 
 ## Further References
 
