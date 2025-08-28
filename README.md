@@ -14,6 +14,7 @@ A starter template for building standalone Sitecore Marketplace apps using Vite,
 - **GraphQL query example:** Run custom queries against the Sitecore Marketplace API, with loading, error, and result display.
 - **React Router navigation:** Multi-page structure with sidebar navigation.
 - **Custom context provider patterns:** useMemo and strong typing for robust state management.
+- **Mutation Wizard Demo:** Step-by-step modal wizard demonstrating Sitecore authoring mutations: createTemplate, createItem, and deleteItem. Each step shows how to perform these mutations, handle errors, and display results using the Sitecore Marketplace SDK. For further mutation examples, see the official [Sitecore documentation](https://doc.sitecore.com/xmc/en/developers/xm-cloud/query-examples-for-authoring-operations.html).
 
 ## Dependencies
 - @sitecore-marketplace-sdk/client (Marketplace SDK client)

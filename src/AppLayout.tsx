@@ -1,12 +1,5 @@
 import { Outlet, Link, useLocation } from "react-router-dom";
-import {
-  Flex,
-  Button,
-  Icon,
-  Stack,
-  Text,
-  Box,
-} from "@chakra-ui/react";
+import { Flex, Button, Icon, Stack, Text, Box } from "@chakra-ui/react";
 import {
   mdiHomeVariantOutline,
   mdiAccountMultipleOutline,
@@ -31,6 +24,11 @@ const navItems = [
   { label: "Tenant Selector", to: "/tenant-selector", icon: mdiDomain },
   { label: "Query Example", to: "/query-example", icon: mdiDatabaseSearch },
   { label: "Sites by Tenant", to: "/sites-by-tenant", icon: mdiWeb },
+  {
+    label: "Mutation Examples",
+    to: "/mutation-examples",
+    icon: mdiDatabaseSearch,
+  },
 ];
 
 export default function AppLayout() {

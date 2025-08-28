@@ -6,6 +6,7 @@ import MarketplaceClientProviderInfoPage from "./pages/MarketplaceClientProvider
 import TenantSelectorPage from "./pages/TenantSelectorPage";
 import QueryExamplePage from "./pages/QueryExamplePage";
 import SitesByTenantPage from "./pages/SitesByTenantPage";
+import MutationExamplesPage from "./pages/MutationExamplesPage";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="tenant-selector" element={<TenantSelectorPage />} />
           <Route path="query-example" element={<QueryExamplePage />} />
           <Route path="sites-by-tenant" element={<SitesByTenantPage />} />
+          <Route path="mutation-examples" element={<MutationExamplesPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
