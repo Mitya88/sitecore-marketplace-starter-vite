@@ -2,6 +2,8 @@
 
 A starter template for building standalone Sitecore Marketplace apps using Vite, React, Chakra UI, and the Sitecore Marketplace SDK. This demo showcases best practices for context management, multi-tenant selection, and integration with Sitecore APIs.
 
+> If you are interested in the NextJs starter app, use this link: [sitecore-marketplace-starter-nextjs](https://github.com/Mitya88/sitecore-marketplace-starter-nextjs)
+> 
 > **Disclaimer:** This project is community-created and provided as a reference only. It is not officially supported by Sitecore, and is not intended for production use. The code and examples are for educational purposes and to give hints for possible usage patterns. Use at your own risk.
 
 ## Features
